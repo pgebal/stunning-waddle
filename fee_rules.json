@@ -1,13 +1,13 @@
 {
   "1": {
     "0x0000000000000000000000000000000000000000": {
-      "type": "fixed",
+      "type": "pegged",
       "symbol": "ETH",
-      "amount": 43000000000000,
+      "amount": null,
       "subunit_to_unit": 1000000000000000000,
-      "pegged_amount": null,
-      "pegged_currency": null,
-      "pegged_subunit_to_unit": null
+      "pegged_amount": 0.1,
+      "pegged_currency": "eth_gas",
+      "pegged_subunit_to_unit": 1000000000000000000
     },
     "0x11B7592274B344A6be0Ace7E5D5dF4348473e2fa": {
       "type": "fixed",
